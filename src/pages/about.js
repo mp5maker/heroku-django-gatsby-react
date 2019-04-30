@@ -5,12 +5,12 @@ import SEO from "../components/seo/seo"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const NotFoundPage = () => (
+const AboutPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <SEO title="About" />
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
   </Layout>
 )
 
-export default NotFoundPage
+export default AboutPage
